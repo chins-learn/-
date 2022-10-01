@@ -12,7 +12,7 @@ git config --global user.email {メールアドレス}
 
 ### ローカルリポジトリ初期化
 1. VS Codeでフォルダーを開く
-2. ターミナルを開く
+2. ターミナルを開くgit
 3. ローカルリポジトリ初期化
 ```bash
 git init
@@ -27,6 +27,9 @@ git init
 #### リモートリポジトリに紐づける
 ```bash
 git remote add origin https://github.com/{ユーザー名}/{リポジトリ名}.git
+
+# 新しいリモートURLに変更したい場合
+git remote set-url origin {new url}
 ```
 
 結果確認
